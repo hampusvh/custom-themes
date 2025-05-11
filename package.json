@@ -1,7 +1,7 @@
 {
   "name": "custom-theme",
   "displayName": "custom-theme",
-  "description": "attempt in creating a useful theme",
+  "description": "Attempt in creating a useful theme collection",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.100.0"
@@ -15,6 +15,16 @@
         "label": "primal-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/primal-theme-color-theme.json"
+      },
+      {
+        "label": "Field Lights Tweak",
+        "uiTheme": "vs-dark",
+        "path": "./themes/field-lights-theme-tweak.json"
+      },
+      {
+        "label": "honolulu-tweak",
+        "uiTheme": "vs-dark",
+        "path": "./themes/honolulu-tweak.json"
       }
     ]
   }
