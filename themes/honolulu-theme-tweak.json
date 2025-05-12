@@ -1,111 +1,111 @@
-// Honolulu Forest Theme – Annotated for clarity
 {
-    "name": "honolulu forest",
-    "type": "dark",
-  
-    // VSCode UI colors (e.g., sidebar, status bar, activity bar)
-    "colors": {
-      "editor.background": "#1a2928",                     // Background color of the editor
-      "editor.foreground": "#a8f1ee",                     // Default text color in the editor
-      "activityBarBadge.background": "#0aaf86",           // Badge background on the activity bar
-      "sideBarTitle.foreground": "#EEFFFD",               // Sidebar title text color
-      "sideBar.background": "#162424",                    // Sidebar background
-      "statusBar.background": "#0f1b1b",                   // Status bar background
-      "activityBar.background": "#0f1b1b",                 // Activity bar background
-      "titleBar.activeBackground": "#0f1b1b",              // Title bar background
-      "gitDecoration.modifiedResourceForeground": "#55dab2",  // Git modified files
-      "gitDecoration.untrackedResourceForeground": "#beff93" // Git untracked files
-    },
-  
-    // Syntax highlighting rules
-    "tokenColors": [
-      // Comments
-      {
-        "name": "Comment",
-        "scope": ["comment", "punctuation.definition.comment"],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#5f7f8d"
-        }
-      },
-  
-      // Variables
-      {
-        "name": "Variables",
-        "scope": [
-          "variable.parameter",
-          "variable",
-          "variable.other.object",
-          "variable.other.property",
-          "variable.other.readwrite"
-        ],
-        "settings": {
-          "foreground": "#cccaaf"
-        }
-      },
-  
-      // Constants like hex colors, etc.
-      {
-        "name": "Colors",
-        "scope": ["constant.other.color"],
-        "settings": {
-          "foreground": "#ffffff"
-        }
-      },
-  
-      // Invalid code (errors)
-      {
-        "name": "Invalid",
-        "scope": ["invalid", "invalid.illegal"],
-        "settings": {
-          "foreground": "#FF5370"
-        }
-      },
-  
-      // Classes, support types
-      {
-        "name": "Class, Support",
-        "scope": [
-          "entity.name",
-          "support.type",
-          "support.class",
-          "support.orther.namespace.use.php",
-          "meta.use.php",
-          "support.other.namespace.php",
-          "markup.changed.git_gutter",
-          "support.type.sys-types"
-        ],
-        "settings": {
-          "foreground": "#55dab2"
-        }
-      },
-  
-      // Keywords like if, else, return
-      {
-        "name": "Keyword",
-        "scope": [
-          "keyword.control",
-          "string constant.other.placeholder",
-          "keyword.other.unit",
-          "keyword.other",
-          "punctuation.definition.directive.cpp"
-        ],
-        "settings": {
-          "foreground": "#fafc92"
-        }
-      },
-  
-      // Storage type keywords (like let, const, var, function, class)
-      {
-        "name": "Storage",
-        "scope": ["storage.type"],
-        "settings": {
-          "foreground": "#54a1ce"
-        }
+  "name": "honolulu tweak",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a2928",
+    "editor.foreground": "#a8f1ee",
+    "activityBarBadge.background": "#0aaf86",
+    "sideBarTitle.foreground": "#EEFFFD",
+    "sideBar.background": "#162424",
+    "statusBar.background": "#0f1b1b",
+    "activityBar.background": "#0f1b1b",
+    "titleBar.activeBackground": "#0f1b1b",
+    "gitDecoration.modifiedResourceForeground": "#55dab2",
+    "gitDecoration.untrackedResourceForeground": "#beff93"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5f7f8d"
       }
-    ]
-  }
-,
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.parameter",
+        "variable",
+        "variable.other.object",
+        "variable.other.property",
+        "variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#cccaaf"
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": ["constant.other.color"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name",
+        "support.type",
+        "support.class",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#55dab2"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword.control",
+        "string constant.other.placeholder",
+        "keyword.other.unit",
+        "keyword.other",
+        "punctuation.definition.directive.cpp"
+      ],
+      "settings": {
+        "foreground": "#fafc92"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": ["storage.type"],
+      "settings": {
+        "foreground": "#54a1ce"
+      }
+    },
+    {
+      "name": "Storage Modifier",
+      "scope": ["storage.modifier"],
+      "settings": {
+        "foreground": "#b98887",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Punctuation, Number, Constant, Tag Attribute",
+      "scope": [
+        "punctuation",
+        "punctuation.definition.tag",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#d6d6d6"
+      }
+    },
     {
       "name": "constant",
       "scope": [
