@@ -1,3 +1,3 @@
-# 🎨 Custom Theme Project
+# 🎨 🖌️ Custom Theme
 
-A personal project for designing a custom Visual Studio Code syntax theme from scratch.
+This is a project for creating a custom Visual Studio Code theme from scratch.
