@@ -1,3 +1,3 @@
-# 🎨 🖌️ Custom Theme
+# Custom themes and configurations
 
-This is a project for creating a custom Visual Studio Code theme from scratch.
+In progress. 
