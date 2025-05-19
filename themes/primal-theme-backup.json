@@ -23,7 +23,7 @@
     "editor.findMatchBackground": "#FFCC6633",
     "editor.findMatchHighlightBackground": "#FFCC6633",
     "editor.findRangeHighlightBackground": "#FFCC6633",
-    "editor.foreground": "#41AF28", // mild grönvit
+    "editor.foreground": "#D9D7CE",
     "editor.lineHighlightBackground": "#242B38",
     "editor.rangeHighlightBackground": "#242B38",
     "editor.selectionBackground": "#343F4C",
@@ -116,7 +116,7 @@
     "sideBar.border": "#11141AB3",
     "sideBar.foreground": "#738699DD",
     "sideBarSectionHeader.background": "#1A1F28",
-    "sideBarSectionHeader.foreground": "#5af5b7a3",
+    "sideBarSectionHeader.foreground": "#FFCC66",
     "sideBarTitle.foreground": "#FFCC6699",
     "statusBar.background": "#1A1F28",
     "statusBar.border": "#1A1F28",
@@ -129,7 +129,7 @@
     "statusBarItem.prominentBackground": "#343D4A",
     "statusBarItem.prominentHoverBackground": "#303540",
     "tab.activeBackground": "#212733",
-    "tab.activeForeground": "#26C6DA",
+    "tab.activeForeground": "#FFCC66",
     "tab.border": "#1A1F28",
     "tab.inactiveBackground": "#1A1F28",
     "tab.inactiveForeground": "#516170",
@@ -184,7 +184,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#dab7efc9"
+        "foreground": "#bc8ad9"
       }
     },
     {
@@ -241,7 +241,7 @@
       "scope": "string, keyword.other.template, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#34d1f4d0"
+        "foreground": "#34d1f4"
       }
     },
     {

@@ -25,6 +25,11 @@
         "label": "honolulu-tweak",
         "uiTheme": "vs-dark",
         "path": "./themes/honolulu-tweak.json"
+      },
+      {
+        "label": "primal-theme-backup",
+        "uiTheme": "vs-dark",
+        "path": "./themes/primal-theme-backup.json"
       }
     ]
   }
