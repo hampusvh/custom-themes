@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "My Custom Chrome Theme",
+  "version": "1.0",
+  "description": "A clean and minimal custom theme.",
+  "theme": {
+    "colors": {
+      "frame": "#2e8b57",
+      "toolbar": "#3cb371",
+      "tab_text": "#ffffff",
+      "tab_background_text": "#dddddd",
+      "bookmark_text": "#ffffff",
+      "ntp_background": "#ffffff",
+      "ntp_text": "#000000"
+    },
+    "images": {},
+    "tints": {},
+    "properties": {}
+  }
+}
