@@ -3,15 +3,16 @@
   "name": "My Custom Chrome Theme",
   "version": "1.0",
   "description": "A clean and minimal custom theme.",
+  "type": "theme",
   "theme": {
     "colors": {
-      "frame": "#2e8b57",
-      "toolbar": "#3cb371",
-      "tab_text": "#ffffff",
-      "tab_background_text": "#dddddd",
-      "bookmark_text": "#ffffff",
-      "ntp_background": "#ffffff",
-      "ntp_text": "#000000"
+      "frame": [28, 31, 38],
+      "toolbar": [25, 22, 21],
+      "tab_text": [0, 255, 170],
+      "tab_background_text": [221, 221, 221],
+      "bookmark_text": [255, 255, 255],
+      "ntp_background": [255, 255, 255],
+      "ntp_text": [0, 0, 0]
     },
     "images": {},
     "tints": {},
