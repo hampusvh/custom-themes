@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Gray Contrast + Neon Tabs",
+  "version": "1.0",
+  "description": "A dark chrome theme with distinct gray tones and neon turquoise highlights.",
+  "type": "theme",
+  "theme": {
+    "colors": {
+      "frame": [30, 30, 30],
+      "frame_inactive": [50, 50, 50],
+      "toolbar": [40, 40, 40],
+      "tab_text": [0, 255, 200],
+      "tab_background_text": [120, 120, 120],
+      "bookmark_text": [160, 160, 160],
+      "ntp_background": [35, 35, 40],
+      "ntp_text": [220, 220, 220],
+      "background_tab": [45, 45, 45],
+      "button_background": [0, 255, 200],
+      "omnibox_background": [50, 50, 55],
+      "omnibox_text": [220, 220, 220],
+      "omnibox_border": [0, 255, 200],
+      "ntp_link": [0, 255, 200],
+      "ntp_header": [0, 230, 200],
+      "ntp_section_link": [0, 200, 200],
+      "control_background": [60, 60, 60]
+    },
+    "images": {},
+    "tints": {},
+    "properties": {}
+  }
+}
