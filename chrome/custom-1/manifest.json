@@ -9,7 +9,7 @@
       "frame": [30, 30, 30],
       "frame_inactive": [50, 50, 50],
       "toolbar": [40, 40, 40],
-      "tab_text": [0, 255, 200],
+      "tab_text": [50, 168, 111],
       "tab_background_text": [120, 120, 120],
       "bookmark_text": [160, 160, 160],
       "ntp_background": [35, 35, 40],
